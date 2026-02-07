@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "arxiv-mcp-server": {
+      "command": "uv",
+      "args": [
+        "tool",
+        "run",
+        "arxiv-mcp-server",
+        "--storage-path", "./papers-storage"
+      ]
+    },
+    "jina-mcp-tools": {
+      "command": "npx.cmd",
+      "args": [
+        "jina-mcp-tools",
+        "--transport", "stdio",
+        "--tokens-per-page", "15000",
+        "--search-endpoint", "standard"
+      ],
+      "env": {
+        "JINA_API_KEY": "jina_372f3c62a4604985b2f02f7dd047f5f571zcAAKDwkkj5uUGYKtUS_A1vfVu"
+      }
+    }
+  }
+}

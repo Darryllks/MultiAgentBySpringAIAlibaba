@@ -10,9 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>simple-react-agent</module>
-        <module>simple-graph-core</module>
-        <module>Agentic-RAG</module>
-        <module>Agentic-RAG-25-1-25new</module>
+        <module>deepResearchAgent</module>
     </modules>
 
     <properties>

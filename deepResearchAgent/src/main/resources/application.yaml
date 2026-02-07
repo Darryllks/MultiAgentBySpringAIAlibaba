@@ -1,0 +1,26 @@
+spring:
+  # 应用基本信息配置
+  application:
+    name: DeepResearch  # 应用名称
+
+  # AI相关配置
+  ai:
+    # 阿里云百炼(DashScope)配置
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY}  # 从环境变量获取API密钥
+
+    # MCP(Model Context Protocol)客户端配置
+    mcp:
+      client:
+        enabled: true  # 启用MCP客户端
+        toolcallback:
+          enabled: true  # 启用工具回调功能
+
+        stdio:
+          servers-configuration: classpath:/mcp-servers-config.json
+
+        request-timeout: 60000  # 请求超时时间：60秒
+
+# 服务器配置
+server:
+  port: 8080  # 服务端口

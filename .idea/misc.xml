@@ -9,7 +9,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Agentic-RAG-25-1-25new/pom.xml" />
+        <option value="$PROJECT_DIR$/Agentic-RAG/pom.xml" />
         <option value="$PROJECT_DIR$/ResearchAgent/pom.xml" />
+        <option value="$PROJECT_DIR$/researchCodingAgent/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-graph-core/pom.xml" />
       </set>
     </option>
   </component>
