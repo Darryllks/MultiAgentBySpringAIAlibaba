@@ -18,7 +18,7 @@
         "--search-endpoint", "standard"
       ],
       "env": {
-        "JINA_API_KEY": "jina_372f3c62a4604985b2f02f7dd047f5f571zcAAKDwkkj5uUGYKtUS_A1vfVu"
+        "JINA_API_KEY": ""
       }
     }
   }
